@@ -1,0 +1,11 @@
+
+.navbar{  
+  background-color: #4C2B08 !important;
+}
+.footer{
+  background-color: #4C2B08 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
