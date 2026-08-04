@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -41,13 +41,13 @@
         <button class="btn btn-warning" type="submit">Search</button>
       </form>
       <button class="btn ms-3 btn-warning " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
-
+      <button class="btn btn-warning ms-3" type="button" id="darkModeToggle">Dark Mode</button>
     </div>
   </div>
 </nav>
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Coffee Corner</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body d-flex flex-column">
@@ -118,20 +118,20 @@
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
     <hr class="featurette-divider">
-    <div class="row featurette">
-      <button class="btn btn-warning fw-bold mt-2 me-3" >change layout</button>
+    <div class="row featurette" id="featurette1">
+      <button class="btn btn-warning fw-bold mt-2 me-3 mb-3" id="changeLayout">change layout</button>
       <div class="col-md-7">
         <h2 class="featurette-heading">Donuts </h2>
         <p id="lead" class="mt-3">Yummy, warm donuts that are perfect for any time of day. </p>
     <button id="changeText" class="btn btn-warning fw-bold mt-2">order now</button>  
     </div>
       <div class="col-md-5">
-        <img src="Donuts.png" class="img-fluid rounded shadow" alt="Featurette Image">
+        <img src="Donuts.png" class="img-fluid rounded shadow" alt="Featurette Image" id="donutimage">
       </div>
     </div>
      <hr class="featurette-divider">
-<button class="btn btn-warning fw-bold mt-2 me-3" >change layout</button>
-    <div class="row featurette  id="featurette2">
+<!--<button class="btn btn-warning fw-bold mt-2 me-3" id="changeLayout2">change layout</button>-->
+    <div class="row featurette" >
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading"> Cookies</h2>
         <p class="lead">Delicious, chewy cookies that are perfect for any time of day. </p>
@@ -154,7 +154,7 @@
 
       </div>
     </div>
-
+  </div>
      <footer class="footer mt-5 mb-0 me-0 ms-0 py-5">
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>&copy; 2026-2027  &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>

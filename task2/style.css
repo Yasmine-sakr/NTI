@@ -1,5 +1,5 @@
 .body{
-  background-color: #f4dabf !important;
+  background-color: #f4dabf ;
 }
 
 .navbar{  
@@ -15,4 +15,8 @@
 .footer a{
   color: white;
   margin-left: 20px;
+}
+.dark-mode {
+  background-color: #4C2B08 !important;
+  color: #f4dabf !important;
 }
