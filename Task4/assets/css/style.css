@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2) !important;
+}
+
+h3 {
+    color: #4a00e0 !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.5px;
+}
+
+.form-control {
+    border-radius: 12px !important;
+    padding: 12px 15px !important;
+    border: 2px solid #e2e8f0 !important;
+    background-color: #f8fafc !important;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #764ba2 !important;
+    box-shadow: 0 0 10px rgba(118, 75, 162, 0.2) !important;
+    background-color: #fff !important;
+}
+
+.btn-primary, .btn-success {
+    background: linear-gradient(to right, #8e2de2, #4a00e0) !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 12px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+    transition: transform 0.2s, box-shadow 0.2s !important;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(74, 0, 224, 0.4) !important;
+}
+
+.a {
+    color: #8e2de2 !important;
+    font-weight: 600;
+}
